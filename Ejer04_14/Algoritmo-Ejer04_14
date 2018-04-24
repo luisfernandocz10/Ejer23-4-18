@@ -1,0 +1,22 @@
+1-  Descargar los archivos Ejer04_14.c , Funciones04_14.c y Funciones04_14.h
+    del directorio github
+    ********************
+2-  Todos los archivos tienen que estar en el mismo directorio (carpeta)
+3-  En la terminal escibir:
+    
+    /* Compila y genera un archivo binario */    
+    gcc -ansi -Wall -pedantic -c -o Funciones04_14.o Funciones04_14.c
+    gcc -ansi -Wall -pedantic -c -o Ejer04_14.o Ejer04_14.c
+    
+    /* Compila el programa final*/
+    gcc -ansi -Wall -pedantic -o Ejer04_14 Funciones04_14.o Ejer04_14.o
+    
+    /* Ejecutamos el programa */
+    ./Ejer04_14
+
+4-  Se diseño un un programa para probar el correcto funcinamiento
+    de la funciones diseñadas.
+
+    
+    
+    
