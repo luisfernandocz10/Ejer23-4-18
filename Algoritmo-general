@@ -1,0 +1,21 @@
+1-  Descargar los archivos Ejer03_06.c , Funciones.c y Funciones.h
+    del directorio github
+    https://github.com/luisfernandocz10/Ejer23-4-18
+
+2-  Todos los archivos tienen que estar en el mismo directorio (carpeta).
+3-  En la terminal escibir: Reemplazar los asteriscos (*) por el numero de ejercicio.
+    
+    /* Compila y genera un archivo binario */    
+    gcc -ansi -Wall -pedantic -c -o Funciones**_**.o Funciones**_**.c
+    gcc -ansi -Wall -pedantic -c -o Ejer**_**.o Ejer**_**.c
+    
+    /* Compila el programa final*/
+    gcc -ansi -Wall -pedantic -o Ejer**_** Funciones**_**.o Ejer**_**.o
+    
+    /* Ejecutamos el programa */
+    ./Ejer**_**
+
+ 
+    
+    
+    
